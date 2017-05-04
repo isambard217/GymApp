@@ -4,12 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { FacebookloginComponent } from './component/facebooklogin/facebooklogin.component';
+import { FacebookLoginComponent } from './component/facebooklogin/facebooklogin.component';
+import { CourseComponentComponent } from './component/course-component/course-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FacebookloginComponent
+    FacebookLoginComponent,
+    CourseComponentComponent
   ],
   imports: [
     BrowserModule,
